@@ -1,5 +1,5 @@
 /* ============================================================
-   OmniCalc Privacy Policy – Styles
+   OmniCalc Privacy Policy � Styles
    ============================================================ */
 
 /* --- CSS Custom Properties --- */
@@ -580,12 +580,12 @@ main {
 /*
  * KEY INSIGHT: In RTL mode with default `flex-direction: row`:
  *   - The main axis runs right-to-left
- *   - `flex-start` packs items at the RIGHT edge  ← this is what we want
- *   - DOM order: 〈section-num〉〈text〉 renders as "1.\u202bمقدمة" (number on right)
+ *   - `flex-start` packs items at the RIGHT edge  ? this is what we want
+ *   - DOM order: <section-num><text> renders as "1.\u202b?????" (number on right)
  *
  * Using `flex-direction: row-reverse` would WRONG-FOOT the layout:
  *   - Main axis runs left-to-right
- *   - `flex-start` packs items at the LEFT edge  ← wrong for RTL
+ *   - `flex-start` packs items at the LEFT edge  ? wrong for RTL
  *   - Text and number swap places incorrectly
  *
  * Therefore: do NOT override flex-direction; let the native `dir="rtl"` handle it.
@@ -622,12 +622,12 @@ main {
  * In RTL mode, default `row` + `flex-start` is CORRECT:
  *   - Number is placed at the right edge
  *   - Heading text follows to the left
- *   - Overall: "1.\u202bمقدمة"  ← standard Arabic heading format
+ *   - Overall: "1.\u202b?????"  ? standard Arabic heading format
  * Do NOT override flex-direction.
  */
 [dir="rtl"] .section-card h2,
 [dir="rtl"] .section-card h3 {
-  flex-direction: row;         /* explicit default — NOT row-reverse */
+  flex-direction: row;         /* explicit default � NOT row-reverse */
   justify-content: flex-start; /* flex-start = right edge in RTL */
   text-align: start;
 }
@@ -649,7 +649,7 @@ main {
 /*
  * `.last-updated` uses `display: inline-flex` (default row).
  * In RTL mode the icon (first in DOM) goes to the RIGHT edge.
- * The text follows to the left.  This is correct — no override needed.
+ * The text follows to the left.  This is correct � no override needed.
  */
 
 /* ===== TABLE OF CONTENTS ===== */
