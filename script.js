@@ -1,5 +1,5 @@
 /* ============================================================
-   OmniCalc Privacy Policy – Scripts
+   OmniCalc Privacy Policy � Scripts
    ============================================================ */
 
 document.addEventListener('DOMContentLoaded', function () {
