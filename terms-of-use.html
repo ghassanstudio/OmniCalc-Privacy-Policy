@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OmniCalc – Terms of Use</title>
+  <meta name="description" content="Terms of Use for OmniCalc, the multifunctional calculator application for Android developed by Ghassan Studio. Effective November 5, 2026.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Ghassan Studio">
+  <meta name="theme-color" content="#6366f1">
+  <meta name="color-scheme" content="light dark">
+
+  <meta property="og:title" content="OmniCalc – Terms of Use">
+  <meta property="og:description" content="Terms of Use for OmniCalc, developed by Ghassan Studio. Effective November 5, 2026.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ghassanstudio.github.io/OmniCalc-Privacy-Policy/terms-of-use.html">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="OmniCalc">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="OmniCalc – Terms of Use">
+  <meta name="twitter:description" content="Terms of Use for OmniCalc, developed by Ghassan Studio.">
+
+  <link rel="canonical" href="https://ghassanstudio.github.io/OmniCalc-Privacy-Policy/terms-of-use.html">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%236366f1'/%3E%3Ctext x='50' y='72' font-size='54' text-anchor='middle' fill='%23fff' font-family='sans-serif' font-weight='bold'%3E%E2%88%91%3C/text%3E%3C/svg%3E" type="image/svg+xml">
+
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('omniTheme');
+        var theme = (stored === 'dark' || stored === 'light')
+          ? stored
+          : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (error) {
+        /* The theme preference is optional. */
+      }
+    })();
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* Page-specific layout. Shared styles remain in styles.css. */
+
+    .nav-link {
+      color: var(--color-text-secondary);
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .nav-link:hover {
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+
+    .breadcrumb {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 20px;
+      font-size: 0.8125rem;
+      color: var(--color-text-muted);
+    }
+
+    .breadcrumb a {
+      color: var(--color-text-secondary);
+      font-weight: 600;
+    }
+
+    .breadcrumb a:hover {
+      color: var(--color-primary);
+    }
+
+    .breadcrumb [aria-current="page"] {
+      color: var(--color-text);
+    }
+
+    .doc-header {
+      margin-bottom: 28px;
+    }
+
+    .doc-eyebrow {
+      margin-bottom: 8px;
+      color: var(--color-primary);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .doc-title {
+      margin-bottom: 12px;
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      line-height: 1.15;
+      letter-spacing: -0.025em;
+    }
+
+    .doc-subtitle {
+      max-width: 62ch;
+      margin-bottom: 20px;
+      color: var(--color-text-secondary);
+      font-size: 1.0625rem;
+      line-height: 1.7;
+    }
+
+    .doc-header .last-updated {
+      margin-bottom: 0;
+    }
+
+    .doc-meta {
+      margin-bottom: 32px;
+      padding: 20px 24px;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      transition: var(--transition-theme);
+    }
+
+    .doc-meta-title {
+      margin-bottom: 12px;
+      color: var(--color-text-muted);
+      font-size: 0.8125rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px 24px;
+      margin: 0;
+    }
+
+    .meta-item {
+      min-width: 0;
+    }
+
+    .meta-item dt {
+      margin-bottom: 2px;
+      color: var(--color-text-muted);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .meta-item dd {
+      margin: 0;
+      color: var(--color-text);
+      font-size: 0.9375rem;
+      overflow-wrap: anywhere;
+    }
+
+    .meta-item code {
+      padding: 2px 6px;
+      background: var(--color-surface-2);
+      border-radius: 4px;
+      font-family: var(--font-mono);
+      font-size: 0.8125rem;
+    }
+
+    .toc-header {
+      width: 100%;
+      padding: 0;
+      background: none;
+      border: 0;
+      color: inherit;
+      font: inherit;
+      text-align: start;
+    }
+
+    .toc-list.collapsed {
+      display: none;
+    }
+
+    .section-card {
+      scroll-margin-top: calc(var(--nav-height) + 16px);
+    }
+
+    .section-card p:last-child,
+    .section-card ul:last-child {
+      margin-bottom: 0;
+    }
+
+    .section-card ul li:last-child {
+      margin-bottom: 0;
+    }
+
+    .doc-divider {
+      margin: 32px 0 20px;
+      border: 0;
+      border-top: 1px solid var(--color-border);
+    }
+
+    .doc-copyright {
+      margin-bottom: 32px;
+      color: var(--color-text-muted);
+      font-size: 0.9375rem;
+      text-align: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 4px 10px;
+      margin-top: 4px;
+    }
+
+    .footer-links span {
+      color: var(--color-text-muted);
+    }
+
+    @media (max-width: 480px) {
+      .nav-link {
+        font-size: 0.75rem;
+      }
+
+      .doc-title {
+        font-size: 1.5rem;
+      }
+
+      .doc-subtitle {
+        font-size: 1rem;
+      }
+
+      .doc-meta {
+        padding: 16px 18px;
+      }
+
+      .meta-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+    }
+
+    @media print {
+      .doc-meta {
+        background: none !important;
+        border: 1px solid #ddd !important;
+      }
+
+      .toc-list.collapsed {
+        display: block !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a href="./" class="nav-brand" aria-label="OmniCalc legal home">OmniCalc</a>
+      <div class="nav-controls">
+        <a href="index.html" class="nav-link">Privacy Policy</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark mode">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content" role="main">
+    <div class="container">
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="./">OmniCalc Legal</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page">Terms of Use</span>
+      </nav>
+
+      <header class="doc-header">
+        <p class="doc-eyebrow">Ghassan Studio · OmniCalc</p>
+        <h1 class="doc-title">OmniCalc – Terms of Use</h1>
+        <p class="doc-subtitle">The terms that govern your use of the OmniCalc application for Android.</p>
+        <div class="last-updated">
+          <span class="icon" aria-hidden="true">📅</span>
+          <span>Effective Date: November 5, 2026</span>
+        </div>
+      </header>
+
+      <aside class="doc-meta" aria-labelledby="doc-meta-title">
+        <h2 id="doc-meta-title" class="doc-meta-title">Document Information</h2>
+        <dl class="meta-grid">
+          <div class="meta-item">
+            <dt>Developer</dt>
+            <dd>Ghassan Studio</dd>
+          </div>
+          <div class="meta-item">
+            <dt>Application</dt>
+            <dd>OmniCalc</dd>
+          </div>
+          <div class="meta-item">
+            <dt>Package Name</dt>
+            <dd><code>com.ghassanstudio.omnicalc</code></dd>
+          </div>
+          <div class="meta-item">
+            <dt>Platform</dt>
+            <dd>Android</dd>
+          </div>
+          <div class="meta-item">
+            <dt>Distribution</dt>
+            <dd>Google Play</dd>
+          </div>
+          <div class="meta-item">
+            <dt>Contact</dt>
+            <dd><a href="mailto:ghassanabdulkhaliq92@gmail.com">ghassanabdulkhaliq92@gmail.com</a></dd>
+          </div>
+        </dl>
+      </aside>
+
+      <nav class="toc" aria-label="Table of Contents">
+        <button class="toc-header" type="button" aria-expanded="true" aria-controls="toc-list">
+          <span class="toc-title">
+            <span aria-hidden="true">📋</span>
+            <span>Table of Contents</span>
+          </span>
+          <span class="toc-toggle open" aria-hidden="true">▾</span>
+        </button>
+        <ul class="toc-list" id="toc-list">
+          <li><a href="#section-1">1. Acceptance of Terms</a></li>
+          <li><a href="#section-2">2. About OmniCalc</a></li>
+          <li><a href="#section-3">3. Permitted Use</a></li>
+          <li><a href="#section-4">4. Accuracy and Disclaimer</a></li>
+          <li><a href="#section-5">5. Calculation History and Local Data</a></li>
+          <li><a href="#section-6">6. Voice Input and Audio Features</a></li>
+          <li><a href="#section-7">7. Advertising and Third-Party Services</a></li>
+          <li><a href="#section-8">8. Privacy</a></li>
+          <li><a href="#section-9">9. Intellectual Property</a></li>
+          <li><a href="#section-10">10. Availability and Updates</a></li>
+          <li><a href="#section-11">11. Limitation of Liability</a></li>
+          <li><a href="#section-12">12. Changes to These Terms</a></li>
+          <li><a href="#section-13">13. Governing Law and Consumer Rights</a></li>
+          <li><a href="#section-14">14. Contact Information</a></li>
+        </ul>
+      </nav>
+
+      <article class="legal-document" aria-label="OmniCalc Terms of Use">
+
+        <section id="section-1" class="policy-section section-card" aria-labelledby="section-1-title">
+          <h2 id="section-1-title"><span class="section-num">1.</span> Acceptance of Terms</h2>
+          <p>By downloading, installing, accessing, or using OmniCalc, you agree to these Terms of Use.</p>
+          <p>If you do not agree with these terms, please discontinue using the application.</p>
+          <p>These terms apply to all users of OmniCalc.</p>
+        </section>
+
+        <section id="section-2" class="policy-section section-card" aria-labelledby="section-2-title">
+          <h2 id="section-2-title"><span class="section-num">2.</span> About OmniCalc</h2>
+          <p>OmniCalc is a multifunctional calculator application developed and published by Ghassan Studio.</p>
+          <p>The application provides calculation and utility features, which may include:</p>
+          <ul>
+            <li>Standard and scientific calculations.</li>
+            <li>Age calculation.</li>
+            <li>Body Mass Index (BMI) calculation.</li>
+            <li>Unit and measurement conversions.</li>
+            <li>Voice input and spoken calculation results.</li>
+            <li>Calculation history.</li>
+          </ul>
+          <p>Features may be updated, modified, or discontinued as the application evolves.</p>
+        </section>
+
+        <section id="section-3" class="policy-section section-card" aria-labelledby="section-3-title">
+          <h2 id="section-3-title"><span class="section-num">3.</span> Permitted Use</h2>
+          <p>You may use OmniCalc for personal and lawful purposes.</p>
+          <p>You agree not to:</p>
+          <ul>
+            <li>Use the application for unlawful activities.</li>
+            <li>Attempt to reverse engineer, modify, or exploit the application.</li>
+            <li>Interfere with the application's operation or security.</li>
+            <li>Distribute unauthorized modified versions.</li>
+            <li>Use the application in a way that violates applicable laws or third-party rights.</li>
+          </ul>
+        </section>
+
+        <section id="section-4" class="policy-section section-card" aria-labelledby="section-4-title">
+          <h2 id="section-4-title"><span class="section-num">4.</span> Accuracy and Disclaimer</h2>
+          <p>OmniCalc is designed to provide useful calculation and conversion tools. However, we do not guarantee that every result will be accurate, complete, or suitable for every purpose.</p>
+          <p>Users are responsible for checking important calculations independently.</p>
+          <p>In particular:</p>
+          <p><strong>General and Scientific Calculations:</strong> Results should be independently verified when used for important financial, engineering, scientific, or professional decisions.</p>
+          <p><strong>Age Calculations:</strong> Results depend on the accuracy of the date information entered by the user.</p>
+          <p><strong>BMI Calculations:</strong> BMI is a general screening indicator and is not a medical diagnosis or a substitute for professional medical advice.</p>
+          <p><strong>Unit Conversions:</strong> Conversion results depend on the selected units and the accuracy of the underlying values.</p>
+          <p>OmniCalc should not be relied upon as the sole source of information for decisions where an incorrect result could cause significant harm or loss.</p>
+        </section>
+
+        <section id="section-5" class="policy-section section-card" aria-labelledby="section-5-title">
+          <h2 id="section-5-title"><span class="section-num">5.</span> Calculation History and Local Data</h2>
+          <p>OmniCalc provides a calculation history feature that allows users to review previous calculations.</p>
+          <p>History is stored locally on the user's device using the application's local storage functionality.</p>
+          <p>Users are responsible for managing their device data. Uninstalling the application, clearing its data, or changing devices may result in the loss of locally stored calculation history.</p>
+        </section>
+
+        <section id="section-6" class="policy-section section-card" aria-labelledby="section-6-title">
+          <h2 id="section-6-title"><span class="section-num">6.</span> Voice Input and Audio Features</h2>
+          <p>OmniCalc may provide microphone-based voice input and spoken calculation results.</p>
+          <p>Microphone access is used when the user chooses to activate voice input.</p>
+          <p>Voice recognition and speech functionality may depend on device capabilities, operating system services, and third-party technologies.</p>
+          <p>Users are responsible for granting or denying microphone permissions through their device settings.</p>
+        </section>
+
+        <section id="section-7" class="policy-section section-card" aria-labelledby="section-7-title">
+          <h2 id="section-7-title"><span class="section-num">7.</span> Advertising and Third-Party Services</h2>
+          <p>OmniCalc may display advertisements provided by third-party advertising services, including Google AdMob.</p>
+          <p>Third-party services may collect or process certain information in accordance with their own privacy policies and applicable settings.</p>
+          <p>Ghassan Studio does not control the independent policies, availability, or operation of third-party services.</p>
+          <p>For additional information about data collection and processing, please review our <a href="index.html">Privacy Policy</a>.</p>
+        </section>
+
+        <section id="section-8" class="policy-section section-card" aria-labelledby="section-8-title">
+          <h2 id="section-8-title"><span class="section-num">8.</span> Privacy</h2>
+          <p>Your privacy is important to us.</p>
+          <p>The collection, use, storage, and processing of information associated with OmniCalc are described in the application's <a href="index.html">Privacy Policy</a>.</p>
+          <p>Please review that policy before using the application.</p>
+          <p>These Terms of Use should be read together with the Privacy Policy.</p>
+        </section>
+
+        <section id="section-9" class="policy-section section-card" aria-labelledby="section-9-title">
+          <h2 id="section-9-title"><span class="section-num">9.</span> Intellectual Property</h2>
+          <p>OmniCalc, including its application design, branding, visual elements, and original content, is owned by or licensed to Ghassan Studio and is protected by applicable intellectual property laws.</p>
+          <p>You may not reproduce, redistribute, modify, or commercially exploit protected application materials without prior written authorization, except where permitted by applicable law.</p>
+          <p>The OmniCalc and Ghassan Studio names and associated branding may not be used in a manner that suggests an unauthorized affiliation or endorsement.</p>
+        </section>
+
+        <section id="section-10" class="policy-section section-card" aria-labelledby="section-10-title">
+          <h2 id="section-10-title"><span class="section-num">10.</span> Availability and Updates</h2>
+          <p>We may update, improve, modify, suspend, or discontinue certain features of OmniCalc at any time.</p>
+          <p>We do not guarantee uninterrupted availability or compatibility with every device or operating system version.</p>
+          <p>Users are encouraged to keep the application updated to benefit from improvements and security-related changes.</p>
+        </section>
+
+        <section id="section-11" class="policy-section section-card" aria-labelledby="section-11-title">
+          <h2 id="section-11-title"><span class="section-num">11.</span> Limitation of Liability</h2>
+          <p>To the maximum extent permitted by applicable law, Ghassan Studio shall not be liable for indirect, incidental, special, or consequential losses arising from the use of, or inability to use, OmniCalc.</p>
+          <p>This includes losses resulting from reliance on calculation results, incorrect user input, device-related issues, or third-party service interruptions.</p>
+          <p>Nothing in these terms excludes or limits liability where such exclusion or limitation is prohibited by applicable law, including mandatory consumer protection rights.</p>
+        </section>
+
+        <section id="section-12" class="policy-section section-card" aria-labelledby="section-12-title">
+          <h2 id="section-12-title"><span class="section-num">12.</span> Changes to These Terms</h2>
+          <p>We reserve the right to revise these Terms of Use when necessary.</p>
+          <p>Any updated version will be published on the official Terms of Use webpage with a revised effective date.</p>
+          <p>Continued use of OmniCalc after changes take effect constitutes acceptance of the revised terms, to the extent permitted by applicable law.</p>
+        </section>
+
+        <section id="section-13" class="policy-section section-card" aria-labelledby="section-13-title">
+          <h2 id="section-13-title"><span class="section-num">13.</span> Governing Law and Consumer Rights</h2>
+          <p>These terms shall be interpreted in accordance with applicable laws.</p>
+          <p>Nothing in these terms is intended to restrict or remove any mandatory rights that users may have under applicable consumer protection legislation, including the laws of their country or region of residence.</p>
+        </section>
+
+        <section id="section-14" class="policy-section section-card" aria-labelledby="section-14-title">
+          <h2 id="section-14-title"><span class="section-num">14.</span> Contact Information</h2>
+          <p>If you have questions, concerns, or complaints regarding these Terms of Use or OmniCalc, please contact us:</p>
+          <div class="contact-block">
+            <p><strong>Developer:</strong> Ghassan Studio</p>
+            <p><strong>Application:</strong> OmniCalc</p>
+            <p><strong>Email:</strong> <span class="email-wrapper"><span class="email-text"><a href="mailto:ghassanabdulkhaliq92@gmail.com">ghassanabdulkhaliq92@gmail.com</a></span><button class="copy-btn" type="button" data-email="ghassanabdulkhaliq92@gmail.com" data-toast="Email copied!" aria-label="Copy email address">📋</button></span></p>
+          </div>
+        </section>
+
+        <hr class="doc-divider">
+        <p class="doc-copyright">© 2026 Ghassan Studio. All rights reserved.</p>
+
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>OmniCalc · Ghassan Studio</p>
+      <p class="footer-links">
+        <a href="./">Legal Home</a>
+        <span aria-hidden="true">·</span>
+        <a href="index.html">Privacy Policy</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://play.google.com/store/apps/details?id=com.ghassanstudio.omnicalc" target="_blank" rel="noopener noreferrer">Google Play</a>
+      </p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    (function () {
+      'use strict';
+
+      var root = document.documentElement;
+      var themeToggle = document.querySelector('.theme-toggle');
+      var tocHeader = document.querySelector('.toc-header');
+      var tocList = document.getElementById('toc-list');
+      var tocToggle = document.querySelector('.toc-toggle');
+      var backToTop = document.querySelector('.back-to-top');
+      var toast = document.querySelector('.toast');
+      var mobileQuery = window.matchMedia('(max-width: 768px)');
+      var sections = Array.prototype.slice.call(document.querySelectorAll('.legal-document .policy-section'));
+      var tocLinks = Array.prototype.slice.call(tocList.querySelectorAll('a'));
+      var toastTimer = null;
+
+      function isMobile() {
+        return mobileQuery.matches;
+      }
+
+      function getTheme() {
+        return root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      }
+
+      function updateThemeButton(theme) {
+        themeToggle.textContent = theme === 'dark' ? '\u2600\uFE0F' : '\uD83C\uDF19';
+        themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      }
+
+      function setTocExpanded(expanded) {
+        if (!isMobile()) {
+          expanded = true;
+        }
+        tocList.classList.toggle('collapsed', !expanded);
+        tocToggle.classList.toggle('open', expanded);
+        tocHeader.setAttribute('aria-expanded', String(expanded));
+      }
+
+      function updateActiveToc() {
+        var activeId = sections.length ? sections[0].id : '';
+
+        sections.forEach(function (section) {
+          if (section.getBoundingClientRect().top <= 120) {
+            activeId = section.id;
+          }
+        });
+
+        tocLinks.forEach(function (link) {
+          var isActive = link.getAttribute('href') === '#' + activeId;
+          link.classList.toggle('active', isActive);
+
+          if (isActive) {
+            link.setAttribute('aria-current', 'location');
+          } else {
+            link.removeAttribute('aria-current');
+          }
+        });
+      }
+
+      updateThemeButton(getTheme());
+      setTocExpanded(!isMobile());
+
+      themeToggle.addEventListener('click', function () {
+        var next = getTheme() === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        updateThemeButton(next);
+
+        try {
+          localStorage.setItem('omniTheme', next);
+        } catch (error) {
+          /* The theme still applies for this page view. */
+        }
+      });
+
+      tocHeader.addEventListener('click', function () {
+        if (isMobile()) {
+          setTocExpanded(tocList.classList.contains('collapsed'));
+        }
+      });
+
+      tocList.addEventListener('click', function (event) {
+        if (event.target.closest('a') && isMobile()) {
+          setTocExpanded(false);
+        }
+      });
+
+      var onMediaChange = function (event) {
+        if (!event.matches) {
+          setTocExpanded(true);
+        }
+      };
+
+      if (mobileQuery.addEventListener) {
+        mobileQuery.addEventListener('change', onMediaChange);
+      } else if (mobileQuery.addListener) {
+        mobileQuery.addListener(onMediaChange);
+      }
+
+      var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      var onSystemThemeChange = function (event) {
+        var stored = null;
+
+        try {
+          stored = localStorage.getItem('omniTheme');
+        } catch (error) {
+          /* Ignore unavailable storage. */
+        }
+
+        if (stored !== 'dark' && stored !== 'light') {
+          var next = event.matches ? 'dark' : 'light';
+          root.setAttribute('data-theme', next);
+          updateThemeButton(next);
+        }
+      };
+
+      if (darkQuery.addEventListener) {
+        darkQuery.addEventListener('change', onSystemThemeChange);
+      } else if (darkQuery.addListener) {
+        darkQuery.addListener(onSystemThemeChange);
+      }
+
+      var ticking = false;
+
+      function onScroll() {
+        if (ticking) {
+          return;
+        }
+
+        ticking = true;
+        window.requestAnimationFrame(function () {
+          updateActiveToc();
+          backToTop.classList.toggle('visible', window.scrollY > 400);
+          ticking = false;
+        });
+      }
+
+      window.addEventListener('scroll', onScroll, { passive: true });
+
+      backToTop.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      document.addEventListener('click', function (event) {
+        var button = event.target.closest('.copy-btn');
+
+        if (!button) {
+          return;
+        }
+
+        var email = button.getAttribute('data-email');
+
+        if (!email) {
+          return;
+        }
+
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(email).then(function () {
+            showCopiedToast(button);
+          }).catch(function () {
+            fallbackCopy(email, button);
+          });
+        } else {
+          fallbackCopy(email, button);
+        }
+      });
+
+      function fallbackCopy(text, button) {
+        var textarea = document.createElement('textarea');
+        textarea.value = text;
+        textarea.style.position = 'fixed';
+        textarea.style.left = '-9999px';
+        textarea.style.top = '-9999px';
+        textarea.style.opacity = '0';
+        document.body.appendChild(textarea);
+        textarea.select();
+
+        try {
+          document.execCommand('copy');
+          showCopiedToast(button);
+        } catch (error) {
+          /* Copying is a convenience, not a requirement. */
+        }
+
+        document.body.removeChild(textarea);
+      }
+
+      function showCopiedToast(button) {
+        button.classList.add('copied');
+        button.textContent = '\u2713';
+
+        if (toastTimer) {
+          clearTimeout(toastTimer);
+        }
+
+        toast.textContent = button.getAttribute('data-toast') || 'Copied!';
+        toast.classList.add('show');
+
+        toastTimer = setTimeout(function () {
+          toast.classList.remove('show');
+          button.classList.remove('copied');
+          button.textContent = '\uD83D\uDCCB';
+        }, 2000);
+      }
+
+      updateActiveToc();
+      onScroll();
+    })();
+  </script>
+</body>
+</html>
