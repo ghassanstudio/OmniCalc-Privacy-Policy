@@ -217,6 +217,25 @@
       color: var(--color-text-muted);
     }
 
+    .footer-privacy {
+      margin-top: 10px;
+      color: var(--color-text-secondary);
+      font-size: 0.9375rem;
+      text-align: center;
+    }
+
+    .footer-privacy a {
+      color: var(--color-primary);
+      font-weight: 600;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .footer-privacy a:hover,
+    .footer-privacy a:focus-visible {
+      color: var(--color-primary-hover);
+    }
+
     @media (max-width: 480px) {
       .nav-link {
         font-size: 0.75rem;
@@ -310,7 +329,7 @@
           </div>
           <div class="meta-item">
             <dt>Contact</dt>
-            <dd><a href="mailto:ghassanabdulkhaliq92@gmail.com">ghassanabdulkhaliq92@gmail.com</a></dd>
+            <dd><a href="mailto:ghassan25vun@gmail.com">ghassan25vun@gmail.com</a></dd>
           </div>
         </dl>
       </aside>
@@ -461,7 +480,7 @@
           <div class="contact-block">
             <p><strong>Developer:</strong> Ghassan Studio</p>
             <p><strong>Application:</strong> OmniCalc</p>
-            <p><strong>Email:</strong> <span class="email-wrapper"><span class="email-text"><a href="mailto:ghassanabdulkhaliq92@gmail.com">ghassanabdulkhaliq92@gmail.com</a></span><button class="copy-btn" type="button" data-email="ghassanabdulkhaliq92@gmail.com" data-toast="Email copied!" aria-label="Copy email address">📋</button></span></p>
+            <p><strong>Email:</strong> <span class="email-wrapper"><span class="email-text"><a href="mailto:ghassan25vun@gmail.com">ghassan25vun@gmail.com</a></span><button class="copy-btn" type="button" data-email="ghassan25vun@gmail.com" data-toast="Email copied!" aria-label="Copy email address">📋</button></span></p>
           </div>
         </section>
 
@@ -475,10 +494,11 @@
   <footer class="site-footer">
     <div class="container">
       <p>OmniCalc · Ghassan Studio</p>
+      <p class="footer-privacy">
+        Read the <a href="index.html">Privacy Policy</a> to learn how OmniCalc handles your information.
+      </p>
       <p class="footer-links">
         <a href="./">Legal Home</a>
-        <span aria-hidden="true">·</span>
-        <a href="index.html">Privacy Policy</a>
         <span aria-hidden="true">·</span>
         <a href="https://play.google.com/store/apps/details?id=com.ghassanstudio.omnicalc" target="_blank" rel="noopener noreferrer">Google Play</a>
       </p>
